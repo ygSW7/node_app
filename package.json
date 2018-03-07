@@ -1,12 +1,31 @@
 {
-  "name": "node-example",
-  "version": "0.0.1",
-  "dependencies": {
-    "express": "3.1.x",
-    "morgan": "^1.9.0"
-  },
+  "name": "cpp-nodejs",
+  "version": "0.3.0",
+  "description": "c++ webapp using Node.js ",
   "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
-  }
+    "node": "8.9.1"
+  },
+  "main": "web.js",
+  "scripts": {
+    "start": "node web.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ygSW7/cppnodejsnan"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
